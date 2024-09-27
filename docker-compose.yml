@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  ace_aufgabe:
+    build:
+      context: .
+      dockerfile: Ace_Aufgabe/Dockerfile
+    ports:
+      - "8080:80"    
+      - "8081:443"   
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development

@@ -1,0 +1,6 @@
+@Ace_Aufgabe_HostAddress = http://localhost:5299
+
+GET {{Ace_Aufgabe_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

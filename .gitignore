@@ -1,0 +1,51 @@
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Visual Studio
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+
+# ASP.NET Core specific
+appsettings.Development.json
+appsettings.*.json
+*.db
+*.pdb
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/build/
+!**/packages/build/*.targets
+
+# Logs
+*.log
+logs/
+
+# Build results
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+
+# Publish folder
+publish/
+publishoutput/
+
+
